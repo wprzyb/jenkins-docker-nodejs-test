@@ -6,7 +6,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'node --version'
-                sh 'cat /proc/1/cgroup'
+                sh 'npm install'
             }
         }
     }
